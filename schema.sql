@@ -1,0 +1,8 @@
+USE INFO;
+DROP TABLE DATA;
+CREATE TABLE new_data(
+    id VARCHAR(100) PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    email VARCHAR(50) UNIQUE,
+    password VARCHAR(50)
+);
